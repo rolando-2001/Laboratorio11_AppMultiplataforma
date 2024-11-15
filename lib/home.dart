@@ -31,6 +31,12 @@ class HomeScreen extends StatelessWidget {
               },
               child: const Text('Comparación de Campos de Texto'),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/tabs');
+              },
+              child: const Text('Comparación de Tab Bars'),
+            ),
           ],
         ),
       ),

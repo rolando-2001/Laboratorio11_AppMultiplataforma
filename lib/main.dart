@@ -3,6 +3,7 @@ import 'home.dart';
 import 'DatePicker.dart';
 import 'TextField.dart';
 import 'progress.dart'; 
+import 'tabs.dart';
 
 void main() => runApp(const MyApp());
 
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/date_picker': (context) => const DatePickerScreen(),
         '/text_fields': (context) => const TextFieldComparison(),
         '/progress': (context) => const ProgressScreen(), 
+        '/tabs': (context) => const TabsScreen(),
       },
     );
   }
